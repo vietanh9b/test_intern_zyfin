@@ -15,7 +15,7 @@ class CreateUserRequest extends FormRequest
         return [
             'name' => 'required|string|max:255', 
             'email' => 'required|email|max:255', 
-            'country' => 'required|string|max:255',
+            'country_name' => 'required|string|max:255',
             'message' => 'required|string|max:1000',
             'company_name'=>'required',
             'choose_support' => 'required', 
