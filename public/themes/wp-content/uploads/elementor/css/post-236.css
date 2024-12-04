@@ -1,0 +1,65 @@
+.elementor-236 .elementor-element.elementor-element-6f15477{padding:0% 0% 0% 0%;}.elementor-236 .elementor-element.elementor-element-a77b17d{--e-image-carousel-slides-to-show:5;}.elementor-236 .elementor-element.elementor-element-a77b17d .elementor-swiper-button.elementor-swiper-button-prev, .elementor-236 .elementor-element.elementor-element-a77b17d .elementor-swiper-button.elementor-swiper-button-next{font-size:20px;color:#2A2E3A;}.elementor-236 .elementor-element.elementor-element-a77b17d .elementor-swiper-button.elementor-swiper-button-prev svg, .elementor-236 .elementor-element.elementor-element-a77b17d .elementor-swiper-button.elementor-swiper-button-next svg{fill:#2A2E3A;}.elementor-236 .elementor-element.elementor-element-a77b17d .swiper-wrapper{display:flex;align-items:flex-end;}@media(max-width:1024px){.elementor-236 .elementor-element.elementor-element-a77b17d{--e-image-carousel-slides-to-show:2;}}@media(max-width:767px){.elementor-236 .elementor-element.elementor-element-a77b17d{--e-image-carousel-slides-to-show:2;}}/* Start custom CSS for image-carousel, class: .elementor-element-a77b17d */.partnership .elementor-image-carousel.swiper-wrapper .swiper-slide{
+    width: auto !important;
+    padding: 0 15px;
+}
+.logo_Slider .swiper-slide figure.swiper-slide-inner {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+img.swiper-slide-image.swiper-lazy.swiper-lazy-loaded {
+    height: 50px !important;
+    min-height: 50px !important;
+    max-width: 100% !important;
+}
+.logo_Slider .swiper-slide figure.swiper-slide-inner img {
+    min-height: 22px;
+    max-height: 25px;
+    width: auto;
+}
+
+ .elementor-image-carousel.swiper-wrapper .swiper-slide {
+    width: auto !important;
+    padding: 0 15px !important;
+}
+.logo_Slider  .swiper .elementor-swiper-button {
+    transform: translateY(-10px) !important;
+}
+
+.logo_Slider .elementor-image-carousel-wrapper:before {
+    position: absolute;
+    content:"";
+    width: 130px;
+    height: 124px;
+    left: 0;
+    top: 50%;
+    background: linear-gradient(90deg, #f1f3f6 0%, rgb(245 246 248 / 85%) 65.32%, rgba(245, 246, 248, 0) 81.01%);
+    transform: translateY(-50%);
+}
+
+.logo_Slider .elementor-swiper-button.elementor-swiper-button-next {
+    right: 40px !important;
+
+}
+.logo_Slider .elementor-swiper-button {
+    opacity:0;
+    transition:0.5s;
+}
+.logo_Slider .elementor-image-carousel-wrapper:hover .elementor-swiper-button{
+    opacity:1
+}
+.logo_Slider .elementor-image-carousel-wrapper:hover:after {
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 124px;
+    right: 20px;
+    top: 50%;
+    background: linear-gradient(-90deg, #f1f3f6 0%, rgb(245 246 248 / 85%) 65.32%, rgba(245, 246, 248, 0) 81.01%);
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+
+.partnership .elementor-image-carousel.swiper-wrapper{
+   animation: carousel-animation 12s linear infinite; 
+}/* End custom CSS */

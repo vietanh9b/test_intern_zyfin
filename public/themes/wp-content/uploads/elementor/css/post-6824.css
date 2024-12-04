@@ -1,0 +1,71 @@
+.elementor-6824 .elementor-element.elementor-element-5fc15504{z-index:9;}.elementor-6824 .elementor-element.elementor-element-2c000a16{width:auto;max-width:auto;}.elementor-6824 .elementor-element.elementor-element-2c9ae5a .elementor-icon-wrapper{text-align:right;}.elementor-6824 .elementor-element.elementor-element-2c9ae5a{width:auto;max-width:auto;bottom:-40px;}body:not(.rtl) .elementor-6824 .elementor-element.elementor-element-2c9ae5a{right:0px;}body.rtl .elementor-6824 .elementor-element.elementor-element-2c9ae5a{left:0px;}.elementor-6824 .elementor-element.elementor-element-7b38a4f4{padding:60px 0px 80px 0px;z-index:1;}.elementor-6824 .elementor-element.elementor-element-566463ac{z-index:2;}.elementor-6824 .elementor-element.elementor-element-54463ed2{--box-border-width:0px;--box-border-radius:0px;--separator-width:0px;--box-padding:0px;--box-min-height:0px;--nested-list-indent:0em;--item-text-color:#4E5761;--item-text-hover-color:var( --e-global-color-9e09722 );--marker-color:#6A1F7A;--marker-size:0px;}.elementor-6824 .elementor-element.elementor-element-54463ed2 .elementor-toc__header-title{text-align:start;}.elementor-6824 .elementor-element.elementor-element-36ade7ca > .elementor-element-populated{padding:0px 0px 0px 50px;}.elementor-6824 .elementor-element.elementor-element-36ade7ca{z-index:2;}.elementor-6824 .elementor-element.elementor-element-167580a2 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-16e9037e > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-6c94c2b4 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-5acb634d > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-5acb634d{width:auto;max-width:auto;}.elementor-6824 .elementor-element.elementor-element-332a0911 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-417fcb1 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-3cd2f9e6 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-626396c2 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-7c446d0f > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-31965229 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-3ebee85a > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-2a7aae21 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-1cdb48de > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-b2db7e8 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-1aec58b6 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-efe6088 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-8adb7ef > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-beba83e > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-6824 .elementor-element.elementor-element-4ecc3ba5 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}@media(min-width:768px){.elementor-6824 .elementor-element.elementor-element-566463ac{width:25%;}.elementor-6824 .elementor-element.elementor-element-36ade7ca{width:75%;}}/* Start custom CSS for table-of-contents, class: .elementor-element-54463ed2 */.ntgTableContent {
+  position: sticky !important;
+  top: 80px;
+}
+
+.ntgTableContent a {
+  text-decoration: none !important;
+}
+
+.ntgTableContent .elementor-toc__body > .elementor-toc__list-wrapper {
+  padding-left: 0;
+}
+
+.ntgTableContent ul.elementor-toc__list-wrapper ul {
+  padding-left: 15px !important;
+}
+section.privacyPolicy
+  ol.elementor-toc__list-wrapper
+  .elementor-toc__list-item-text-wrapper:before {
+  content: none !important;
+}
+section.privacyPolicy .ntgTableContent .elementor-toc__header-title {
+  border-bottom: 1px solid #9fa3aa;
+  padding: 0px 0px 16px 0px;
+  margin: 0px 10px 20px 0px;
+}
+section.privacyPolicy
+  .ntgTableContent
+  .elementor-toc__body
+  .elementor-toc__list-wrapper {
+  padding: 0px 0px 0px 10px;
+}
+section.privacyPolicy
+  .ntgTableContent
+  .elementor-toc__body
+  > .elementor-toc__list-wrapper {
+  padding: 0px 10px 0px 0px;
+}
+@media only screen and (min-width: 768px) {
+  section.privacyPolicy
+    .ntgTableContent
+    .elementor-toc__body
+    > .elementor-toc__list-wrapper {
+    max-height: calc(100vh - 200px);
+  }
+  section.privacyPolicy
+    .ntgTableContent
+    .elementor-toc__body
+    .elementor-toc__list-wrapper
+    a {
+    max-width: 100% !important;
+  }
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-7b38a4f4 */.csTitleBG{
+    
+}
+.csTitleBG:after{
+    z-index: 0;
+    content:"";
+  position: fixed;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+height: 100vh;
+width:100vw;
+background: radial-gradient(157.65% 157.65% at 19.27% 197.79%, rgba(106, 31, 122, 0.2) 0%, rgba(106, 31, 122, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(90.1% 110.66% at 138.99% 138.16%, rgba(0, 148, 213, 0.2) 0%, rgba(0, 148, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;  
+}/* End custom CSS */
+/* Start custom CSS */html {
+    overflow: inherit !important;
+}/* End custom CSS */

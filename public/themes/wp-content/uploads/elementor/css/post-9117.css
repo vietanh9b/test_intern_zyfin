@@ -1,0 +1,39 @@
+.elementor-9117 .elementor-element.elementor-element-2c9a5ff0 > .elementor-container{min-height:200px;}.elementor-9117 .elementor-element.elementor-element-2c9a5ff0{margin-top:0px;margin-bottom:0px;padding:0px 0px 80px 0px;}.elementor-9117 .elementor-element.elementor-element-34f0c29{z-index:9;}.elementor-9117 .elementor-element.elementor-element-5c170b4f{text-align:left;z-index:2;}.elementor-9117 .elementor-element.elementor-element-426b041e{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-9117 .elementor-element.elementor-element-7fe0c06c > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-9117 .elementor-element.elementor-element-27df4585{margin-top:120px;margin-bottom:50px;}.elementor-9117 .elementor-element.elementor-element-574b2da3 > .elementor-element-populated{padding:0px 15px 0px 15px;}.elementor-9117 .elementor-element.elementor-element-54768a73{margin-top:0px;margin-bottom:0px;}.elementor-9117 .elementor-element.elementor-element-18193908 > .elementor-container{min-height:400px;}.elementor-9117 .elementor-element.elementor-element-18193908:not(.elementor-motion-effects-element-type-background), .elementor-9117 .elementor-element.elementor-element-18193908 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("../../2024/07/CTA_Case-study-1-scaled.webp");background-position:top center;background-size:cover;}.elementor-9117 .elementor-element.elementor-element-18193908{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:100px;margin-bottom:-1px;}.elementor-9117 .elementor-element.elementor-element-18193908 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-9117 .elementor-element.elementor-element-51813d19 > .elementor-container{max-width:936px;}.elementor-9117 .elementor-element.elementor-element-51813d19{margin-top:0px;margin-bottom:50px;}.elementor-9117 .elementor-element.elementor-element-2bbb1c79{text-align:center;}.elementor-9117 .elementor-element.elementor-element-2bbb1c79 .elementor-heading-title{color:#FFFFFF;}@media(max-width:1024px){.elementor-9117 .elementor-element.elementor-element-27df4585{margin-top:50px;margin-bottom:40px;}.elementor-9117 .elementor-element.elementor-element-574b2da3 > .elementor-element-populated{padding:0px 15px 0px 15px;}}@media(max-width:767px){.elementor-9117 .elementor-element.elementor-element-2c9a5ff0{margin-top:0px;margin-bottom:0px;}.elementor-9117 .elementor-element.elementor-element-5c170b4f > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-9117 .elementor-element.elementor-element-27df4585{margin-top:40px;margin-bottom:40px;}.elementor-9117 .elementor-element.elementor-element-574b2da3.elementor-column > .elementor-widget-wrap{justify-content:flex-start;}.elementor-9117 .elementor-element.elementor-element-54768a73{margin-top:50px;margin-bottom:0px;}.elementor-9117 .elementor-element.elementor-element-18193908:not(.elementor-motion-effects-element-type-background), .elementor-9117 .elementor-element.elementor-element-18193908 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:top center;background-repeat:no-repeat;background-size:cover;}.elementor-9117 .elementor-element.elementor-element-18193908{margin-top:0px;margin-bottom:-1px;}.elementor-9117 .elementor-element.elementor-element-51813d19{margin-top:0px;margin-bottom:30px;}.elementor-9117 .elementor-element.elementor-element-2bbb1c79 .elementor-heading-title{font-size:24px;line-height:32px;}.elementor-9117 .elementor-element.elementor-element-3830f76a > .elementor-widget-container{margin:0px 0px 0px 0px;}}/* Start custom CSS for section, class: .elementor-element-2c9a5ff0 */.csTitle:before{
+    content:"";
+    display: block;
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 40px;
+    width: 40px;
+    background-image: url(../../2023/06/decorElem_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: translate(0, -80%);
+    
+}
+.csTitleBG:before{
+    content:"";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    height: 80px;
+    width: 80px;
+    background-image: url(../../2023/06/decorElem_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: translate(0%, -50%);
+    
+}
+.csTitleBG:after{
+    content:"";
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: radial-gradient(157.65% 157.65% at 19.27% 197.79%, rgba(106, 31, 122, 0.2) 0%, rgba(106, 31, 122, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(90.1% 110.66% at 138.99% 138.16%, rgba(0, 148, 213, 0.2) 0%, rgba(0, 148, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;  
+}/* End custom CSS */

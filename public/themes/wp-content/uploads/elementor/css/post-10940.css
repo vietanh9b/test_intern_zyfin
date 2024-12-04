@@ -1,0 +1,36 @@
+.elementor-10940 .elementor-element.elementor-element-25777bce{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:0% 0% 0% 0%;}.elementor-10940 .elementor-element.elementor-element-25777bce > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-bc-flex-widget .elementor-10940 .elementor-element.elementor-element-1b1fa795.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-10940 .elementor-element.elementor-element-1b1fa795.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-10940 .elementor-element.elementor-element-1b1fa795 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-10940 .elementor-element.elementor-element-6e471740{text-align:center;}.elementor-10940 .elementor-element.elementor-element-6e471740 .elementor-heading-title{color:#FFFFFF;font-size:48px;}.elementor-10940 .elementor-element.elementor-element-4e79737e{--e-image-carousel-slides-to-show:7;}.elementor-10940 .elementor-element.elementor-element-4e79737e .swiper-wrapper{display:flex;align-items:flex-end;}.elementor-10940 .elementor-element.elementor-element-4e79737e > .elementor-widget-container{margin:20px 0px 0px 0px;}@media(max-width:1024px){.elementor-10940 .elementor-element.elementor-element-4e79737e{--e-image-carousel-slides-to-show:4;}}@media(max-width:767px){.elementor-10940 .elementor-element.elementor-element-4e79737e{--e-image-carousel-slides-to-show:2;}}/* Start custom CSS for image-carousel, class: .elementor-element-4e79737e */.partnerLogoSlider .elementor-image-carousel.swiper-wrapper{
+   animation: carousel-animation 18s linear infinite; 
+}
+.swiper-slide.swiper-slide-next {}
+
+.partnerLogoSlider .swiper-slide {
+    height: 50px;
+    align-content: center;
+}
+
+img.swiper-slide-image.swiper-lazy.swiper-lazy-loaded {
+    height: 50px !important;
+    min-height: 50px !important;
+    max-width: 100% !important;
+}
+
+.logoSlider .swiper-slide {
+    margin: 0 25px;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-25777bce */.whiteTrustedBy img{
+  filter: brightness(0) invert(1)  
+}
+.logoSlider .swiper-slide figure.swiper-slide-inner img {
+    
+    max-height: 45px !important;
+    width: auto;
+    max-width: 250px;
+    height: auto;
+}
+figure.swiper-slide-inner {
+    max-width:max-content;
+    margin: 0 auto !important;
+}
+.elementor-image-carousel.swiper-wrapper {
+   align-items: center !important;
+}/* End custom CSS */

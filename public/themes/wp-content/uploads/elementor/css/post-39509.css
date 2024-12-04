@@ -1,0 +1,39 @@
+.elementor-39509 .elementor-element.elementor-element-560958f0 > .elementor-container{min-height:200px;}.elementor-39509 .elementor-element.elementor-element-560958f0{margin-top:0px;margin-bottom:0px;padding:0px 0px 80px 0px;}.elementor-39509 .elementor-element.elementor-element-107f1890{z-index:1;}.elementor-39509 .elementor-element.elementor-element-62671544{text-align:left;z-index:2;}.elementor-39509 .elementor-element.elementor-element-4859d3b0{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-39509 .elementor-element.elementor-element-70d9a4c8 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-39509 .elementor-element.elementor-element-753f91f6{margin-top:120px;margin-bottom:60px;}.elementor-39509 .elementor-element.elementor-element-16373756 > .elementor-element-populated{padding:0px 15px 0px 15px;}.elementor-39509 .elementor-element.elementor-element-18a6597d > .elementor-element-populated{padding:15px 15px 15px 15px;}.elementor-39509 .elementor-element.elementor-element-48178ce2 > .elementor-container{min-height:400px;}.elementor-39509 .elementor-element.elementor-element-48178ce2:not(.elementor-motion-effects-element-type-background), .elementor-39509 .elementor-element.elementor-element-48178ce2 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("../../2024/01/Our-thinking-and-resources_Call-to-action-section.jpg");background-position:top center;background-size:cover;}.elementor-39509 .elementor-element.elementor-element-48178ce2{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:100px;margin-bottom:0px;}.elementor-39509 .elementor-element.elementor-element-48178ce2 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-39509 .elementor-element.elementor-element-52db8473 > .elementor-container{max-width:936px;}.elementor-39509 .elementor-element.elementor-element-52db8473{margin-top:0px;margin-bottom:50px;}.elementor-39509 .elementor-element.elementor-element-5f3dd18d{text-align:center;}.elementor-39509 .elementor-element.elementor-element-5f3dd18d .elementor-heading-title{color:#FFFFFF;}@media(max-width:1024px){.elementor-39509 .elementor-element.elementor-element-6246e3f7 > .elementor-element-populated{padding:15px 15px 15px 15px;}.elementor-39509 .elementor-element.elementor-element-753f91f6{margin-top:0px;margin-bottom:40px;}.elementor-39509 .elementor-element.elementor-element-16373756 > .elementor-element-populated{padding:0px 15px 0px 15px;}.elementor-39509 .elementor-element.elementor-element-18a6597d > .elementor-element-populated{padding:15px 15px 15px 15px;}}@media(max-width:767px){.elementor-39509 .elementor-element.elementor-element-560958f0{margin-top:0px;margin-bottom:0px;}.elementor-39509 .elementor-element.elementor-element-62671544 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-39509 .elementor-element.elementor-element-753f91f6{margin-top:0px;margin-bottom:0px;}.elementor-39509 .elementor-element.elementor-element-16373756.elementor-column > .elementor-widget-wrap{justify-content:flex-start;}.elementor-39509 .elementor-element.elementor-element-5f19d25e{margin-top:50px;margin-bottom:0px;}.elementor-39509 .elementor-element.elementor-element-48178ce2:not(.elementor-motion-effects-element-type-background), .elementor-39509 .elementor-element.elementor-element-48178ce2 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:top center;background-repeat:no-repeat;background-size:cover;}.elementor-39509 .elementor-element.elementor-element-52db8473{margin-top:0px;margin-bottom:30px;}.elementor-39509 .elementor-element.elementor-element-5f3dd18d .elementor-heading-title{font-size:24px;line-height:32px;}.elementor-39509 .elementor-element.elementor-element-32c70c59 > .elementor-widget-container{margin:0px 0px 0px 0px;}}/* Start custom CSS for section, class: .elementor-element-560958f0 */.csTitle:before{
+    content:"";
+    display: block;
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 40px;
+    width: 40px;
+    background-image: url(../../2023/06/decorElem_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: translate(0, -80%);
+    
+}
+.csTitleBG:before{
+    content:"";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    height: 80px;
+    width: 80px;
+    background-image: url(../../2023/06/decorElem_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: translate(0%, -50%);
+    
+}
+.csTitleBG:after{
+    content:"";
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: radial-gradient(157.65% 157.65% at 19.27% 197.79%, rgba(106, 31, 122, 0.2) 0%, rgba(106, 31, 122, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(90.1% 110.66% at 138.99% 138.16%, rgba(0, 148, 213, 0.2) 0%, rgba(0, 148, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;  
+}/* End custom CSS */

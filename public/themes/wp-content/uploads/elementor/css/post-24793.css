@@ -1,0 +1,14 @@
+.elementor-24793 .elementor-element.elementor-element-1ed5e3a1{padding:0px 0px 0px 0px;}.elementor-24793 .elementor-element.elementor-element-2b68309d > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-24793 .elementor-element.elementor-element-6f5f1456 .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-24793 .elementor-element.elementor-element-6f5f1456 .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-24793 .elementor-element.elementor-element-6f5f1456{--e-icon-list-icon-size:20px;--icon-vertical-offset:0px;width:auto;max-width:auto;}.elementor-24793 .elementor-element.elementor-element-6f5f1456 .elementor-icon-list-icon{padding-right:5px;}.elementor-24793 .elementor-element.elementor-element-6f5f1456 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-24793 .elementor-element.elementor-element-6f5f1456 .elementor-icon-list-item > a{font-size:16px;font-weight:500;}.elementor-24793 .elementor-element.elementor-element-6f5f1456 .elementor-icon-list-text{transition:color 0.3s;}.elementor-24793 .elementor-element.elementor-element-6f5f1456 > .elementor-widget-container{margin:0px 10px 10px 0px;}.elementor-24793 .elementor-element.elementor-element-db6db97 .elementor-icon-list-icon{width:0px;}.elementor-24793 .elementor-element.elementor-element-db6db97 .elementor-icon-list-icon i{font-size:0px;}.elementor-24793 .elementor-element.elementor-element-db6db97 .elementor-icon-list-icon svg{--e-icon-list-icon-size:0px;}.elementor-24793 .elementor-element.elementor-element-db6db97 .elementor-icon-list-item{font-size:14px;font-weight:700;}.elementor-24793 .elementor-element.elementor-element-db6db97 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-24793 .elementor-element.elementor-element-db6db97{width:auto;max-width:auto;}/* Start custom CSS for post-info, class: .elementor-element-db6db97 */.topic_tags{
+   padding-right: 5px !important; 
+}
+.topic_tags a {
+   display: inline-block !important;
+    text-decoration: none !important;
+    padding: 0px 8px;
+    margin: 5px -5px 5px 5px !important;
+    z-index: 1;
+    position: relative;
+    background-color: #E2E5E7;
+    border-radius: 2px;
+    line-height: 22px;
+}/* End custom CSS */

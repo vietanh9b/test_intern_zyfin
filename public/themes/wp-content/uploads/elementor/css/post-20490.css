@@ -1,0 +1,143 @@
+.elementor-20490 .elementor-element.elementor-element-4ea894c5 > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:flex-start;align-items:flex-start;}.elementor-20490 .elementor-element.elementor-element-4ea894c5{padding:0px 0px 0px 0px;}.elementor-bc-flex-widget .elementor-20490 .elementor-element.elementor-element-bd23560.elementor-column .elementor-widget-wrap{align-items:flex-start;}.elementor-20490 .elementor-element.elementor-element-bd23560.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}.elementor-20490 .elementor-element.elementor-element-bd23560 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-20490 .elementor-element.elementor-element-bd23560 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-20490 .elementor-element.elementor-element-421477c9{width:100%;max-width:100%;}@media(max-width:767px){.elementor-20490 .elementor-element.elementor-element-bd23560 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-20490 .elementor-element.elementor-element-6badb205 .elementor-button{padding:20px 20px 20px 20px;}.elementor-20490 .elementor-element.elementor-element-572caa2a .elementor-button{padding:20px 20px 20px 20px;}.elementor-20490 .elementor-element.elementor-element-50a85476 .elementor-button{padding:20px 20px 20px 20px;}.elementor-20490 .elementor-element.elementor-element-344ceeae .elementor-button{padding:20px 20px 20px 20px;}.elementor-20490 .elementor-element.elementor-element-94d434 .elementor-button{padding:20px 20px 20px 20px;}.elementor-20490 .elementor-element.elementor-element-ec9fe78 .elementor-button{padding:20px 20px 20px 20px;}.elementor-20490 .elementor-element.elementor-element-4225998a .elementor-button{padding:20px 20px 20px 20px;}.elementor-20490 .elementor-element.elementor-element-6b6ed03e .elementor-button{padding:20px 20px 20px 20px;}.elementor-20490 .elementor-element.elementor-element-421477c9 .elementor-button{padding:20px 20px 20px 20px;}}/* Start custom CSS for section, class: .elementor-element-4ea894c5 */.footerCTAlinks {
+     width: 100%;
+     position: relative;
+ }
+
+ .footerCTAlinks a {
+     display: block;
+     width: 100%;
+     background: transparent !important;
+     border: 0 !important;
+     border-bottom: 1px solid !important;
+     color: #6C7685 !important;
+     font-weight: 700 !important;
+     font-size: 24px !important;
+     line-height: 36px !important;
+     transform: 0.2s;
+     text-align: left !important;
+     padding: 20px 0 !important
+ }
+
+ .footerCTAlinks a .elementor-button-icon {
+     position: absolute;
+     right: 15px;
+     display: none;
+ }
+
+ .footerCTAlinks:hover a {
+     box-shadow: none !important;
+ }
+
+ .footerCTAlinks a {
+     width: 100%;
+
+ }
+
+ .footerCTAlinks a:after {
+     content: "";
+     position: absolute;
+     right: 15px;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 22px;
+     height: 40px;
+     background: url(../../2023/08/red-arrow.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     transition: 0.5s;
+     opacity: 0;
+
+ }
+
+ .footerCTAlinks:hover a:after {
+     opacity: 1
+ }
+
+ .footerCTAlinks .elementor-button-content-wrapper {
+     justify-content: flex-start !important;
+
+ }
+
+ .footerCTAlinks .elementor-button-text {
+     flex-grow: 1 !important;
+     word-wrap: break-word;
+     max-width: 85%;
+     display: block;
+
+ }
+
+ .footerCTAlinks:hover a .elementor-button-text,
+ .footerCTAlinks.active a .elementor-button-text {
+     background: linear-gradient(270deg, #D6001C, #6A1F7A) !important;
+     -webkit-background-clip: text !important;
+     -webkit-text-fill-color: transparent;
+     box-shadow: none !important;
+ }
+
+ .footerCTAlinks:hover a .elementor-button-icon,
+ .footerCTAlinks.active a .elementor-button-icon {
+     display: inline-block !important
+ }
+ 
+.footerLinkWrap .serviceLinks .footerCTAlinks:hover a .elementor-button-text, .footerLinkWrap .serviceLinks .footerCTAlinks.active a .elementor-button-text{
+    max-width: max-content !important;
+}
+.footerLinkWrap .serviceLinks .footerCTAlinks a svg{
+    display: none !important;
+}
+
+.footerLinkWrap .serviceLinks .footerCTAlinks a:before{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 40px;
+    transition: all ease-in-out 0.5s;
+    background: url('../../2024/05/arrow-to-right.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    opacity: 0 !important;
+    transition: 0.5s ease-in-out;
+}
+
+.footerLinkWrap .serviceLinks .footerCTAlinks a:hover:before{
+    opacity: 1 !important;
+}
+
+.footerLinkWrap .serviceLinks .footerCTAlinks a {
+    position: relative;
+    text-decoration: none;
+}
+
+.footerLinkWrap .serviceLinks .footerCTAlinks a::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(270deg, #6c7685, #6c7685);
+    transition: 0.5s ease-in-out;
+}
+
+.footerLinkWrap .serviceLinks .footerCTAlinks a:hover::after{
+    height: 2px;
+    background: linear-gradient(270deg, #D6001C, #6A1F7A);
+}
+.footerLinkWrap .serviceLinks .footerCTAlinks a .elementor-button-text {
+    max-width: max-content !important;
+}
+.footerLinkWrap .serviceLinks .footerCTAlinks a .elementor-button-content-wrapper{
+    margin-left: 0px;
+    transition: margin ease-in-out 0.2s;
+}
+.footerLinkWrap .serviceLinks .footerCTAlinks:hover a .elementor-button-content-wrapper{
+    margin-left: 5px;
+}
+.footerCTAlinks .elementor-button-content-wrapper {
+    width: calc(100% - 40px) !important;
+}/* End custom CSS */

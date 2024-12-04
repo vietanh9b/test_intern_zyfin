@@ -1,0 +1,2087 @@
+body:after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%);
+  z-index: 99;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 150% !important;
+}
+
+@media (min-width: 1128px) {
+  section:not(.elementor-inner-section).rightFullWidth > .elementor-container {
+    margin-right: 0;
+    width: calc(1128px + (100vw - 1128px) / 2);
+    max-width: 100vw !important;
+  }
+
+  section:not(.elementor-inner-section).leftFullWidth > .elementor-container {
+    margin-left: 0;
+    width: calc(1128px + (100vw - 1128px) / 2);
+    max-width: 100vw !important;
+  }
+
+  section:not(.elementor-inner-section).rightFullWidth > .rightCol {
+    width: 100% !important;
+  }
+
+  section:not(.elementor-inner-section).rightFullWidth > .leftCol {
+    min-width: calc(1140px / 2) !important;
+  }
+
+  section:not(.elementor-inner-section).leftFullWidth > .leftCol {
+    width: 100% !important;
+  }
+
+  section:not(.elementor-inner-section).leftFullWidth > .rightCol {
+    min-width: calc(1140px / 2) !important;
+  }
+}
+
+.elementor-element .swiper .elementor-swiper-button {
+  top: calc(50%) !important;
+  transform: translateY(-50%) !important;
+}
+
+.planeWBCTA a,
+.planeRBCTA a {
+  padding: 0 !important;
+  border-radius: 0px !important;
+  transition: 0.4s;
+  color: #fff !important;
+}
+
+.planeWBCTA a {
+  border: 1px solid #ffffff !important;
+  background: transparent !important;
+}
+
+.planeRBCTA a {
+  border: 1px solid #d6001c !important;
+  color: #d6001c !important;
+  background: transparent !important;
+}
+
+.planeWBCTA.gradHover a:hover,
+.lineCTA.gradHover a:hover {
+  background: #ffffff !important;
+  box-shadow: 3px 3px 0 #d6001c;
+}
+
+.planeWBCTA a span.elementor-button-content-wrapper,
+.planeRBCTA a span.elementor-button-content-wrapper {
+  padding: 9px 32px;
+}
+
+.planeRBCTA a:hover span.elementor-button-text,
+.gradHover a:hover span.elementor-button-text,
+.lineCTA.gradHover a:hover span.elementor-button-text {
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+.subtitle p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.redPlaneFormCta {
+  width: 100%;
+  border-radius: 0 !important;
+  transition: 0.4s;
+}
+
+.redPlaneFormCta:hover,
+.redPlaneFormCta:active:hover,
+.redPlaneFormCta:focus:hover {
+  background-color: #ffffff !important;
+  box-shadow: 3px 3px 0 #d6001c !important;
+  transform: translateY(-2px);
+  background: linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bottomBorderWCta a,
+.bottomBorderGCta a {
+  background-color: transparent !important;
+  border: 0px !important;
+  padding: 0 0 10px !important;
+  width: 120px;
+  position: relative;
+}
+
+.bottomBorderGCta a {
+  color: #63666b !important;
+}
+
+.bottomBorderWCta a:before,
+.bottomBorderGCta a:before {
+  content: "";
+  display: block !important;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.bottomBorderWCta a:before {
+  background: #fff;
+}
+
+.bottomBorderGCta a:before {
+  background: #d6001c;
+}
+
+.bottomBorderWCta a:hover:before,
+.bottomBorderGCta a:hover:before {
+  background: linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%);
+}
+
+.bottomBorderWCta a:hover,
+.bottomBorderGCta a:hover {
+  box-shadow: none !important;
+  background: linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.elementor-button a,
+.elementor-button a:hover,
+.elementor-button a:focus {
+  outline: none !important;
+}
+
+.bottomBorderWCta a:hover .elementor-button-text {
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.bottomBorderGCta a svg,
+.bottomBorderWCta a svg {
+  fill: #63666b !important;
+}
+
+.bottomBorderWCta a:hover svg {
+  fill: #6a1f7a !important;
+}
+
+.bottomBorderGCta a:hover svg {
+  fill: #d6001c !important;
+}
+
+.bottomBorderWCta a .elementor-button-text {
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.bottomBorderGCta a {
+  background-color: transparent !important;
+  border: 0px !important;
+  padding: 0 0 10px !important;
+  width: 120px;
+  position: relative;
+  color: #63666b !important;
+}
+
+.bottomBorderGCta a:hover .elementor-button-text {
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.bottomBorderGCta a .elementor-button-text {
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+.solidRedCTA a {
+  border: 0px !important;
+}
+
+.solidRedCTA a:hover {
+  background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
+}
+
+.solidRedCTA a:hover {
+  box-shadow: 3px 3px 0 0 #6a1f7a !important;
+}
+
+.solidRedNav:hover {
+  background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
+  box-shadow: 3px 3px 0 0 #6a1f7a !important;
+}
+
+::selection {
+  background: rgba(204, 234, 247, 1) !important;
+  color: rgba(40, 41, 43, 1) !important;
+}
+
+.text-gradient *::selection,
+.text-gradient::selection {
+  -webkit-text-fill-color: #ae0c3f !important;
+}
+
+.textGradient *::selection,
+.textGradient::selection {
+  -webkit-text-fill-color: #ae0c3f !important;
+}
+
+.gradientSelection *::selection,
+.gradientSelection::selection {
+  -webkit-text-fill-color: #ae0c3f !important;
+}
+.footerCTAlinks span::selection {
+  -webkit-text-fill-color: #28292b !important;
+}
+.footerCTAlinks.active span::selection,
+.footerCTAlinks:hover span::selection,
+.footerCTAlinks:focus span {
+  -webkit-text-fill-color: #ae0c3f !important;
+}
+
+.hoverGradient span::selection,
+.hoverGradient a::selection {
+  -webkit-text-fill-color: #28292b !important;
+}
+
+.hoverGradient span:hover::selection,
+.hoverGradient a:hover::selection {
+  -webkit-text-fill-color: #ae0c3f !important;
+}
+.elementor-widget-container p a:not(.elementor-button-link) {
+  color: #6a1f7a !important;
+  position: relative;
+}
+
+.elementor-widget-container p a:not(.elementor-button-link):hover:before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 1.5px;
+  width: 100%;
+  height: 1.5px;
+  background: linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%);
+}
+
+.elementor-widget-container p a:not(.elementor-button-link):hover {
+  background: var(
+    --Gradient-Light-BG,
+    linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stickyAnchorWrap {
+  z-index: 99 !important;
+  transform: translateY(-1px);
+}
+
+@media only screen and (min-width: 1024px) {
+  .stickyAnchorWrap {
+    top: 80px !important;
+  }
+}
+
+.cky-btn-revisit-wrapper {
+  z-index: 9999 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .popupContactInner form.wpcf7-form.init {
+    padding-bottom: 20px;
+  }
+}
+
+.bottomBorderWCta a.elementor-button.elementor-button-link svg {
+  fill: #ffffff !important;
+}
+
+.techUsed span.tech {
+  white-space: nowrap;
+}
+
+html.popup-active {
+  overflow: hidden !important;
+}
+
+.solidRedCTA a.elementor-animation-float:active,
+.solidRedCTA a.elementor-animation-float:focus,
+.solidRedCTA a.elementor-animation-float:hover {
+  transform: translateY(0) !important;
+}
+
+.solidRedCTA a {
+  background: linear-gradient(
+    270deg,
+    RGB(214, 0, 28) 13.02%,
+    RGB(214, 0, 28) 98.28%
+  ) !important;
+  transition: 0.3s;
+}
+
+.solidRedCTA a:hover {
+  box-shadow: 3px 3px 0 0 #884c95 !important;
+}
+
+.solidRedCTA a:active {
+  box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
+  background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
+}
+
+.solidRedCTA a:focus,
+.solidRedCTA a:active {
+  outline: none !important;
+}
+
+.solidRedCTA.disabled {
+  display: block !important;
+}
+
+.solidRedCTA.disabled a {
+  background: rgba(226, 229, 231, 1) !important;
+  color: rgba(159, 163, 170, 1) !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.dark .solidRedCTA a {
+  background: linear-gradient(
+    270deg,
+    RGB(214, 0, 28) 13.02%,
+    RGB(214, 0, 28) 98.28%
+  ) !important;
+}
+
+.dark .solidRedCTA a:hover {
+  box-shadow: 3px 3px 0 0 #884c95 !important;
+}
+
+.dark .solidRedCTA a:active {
+  box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
+  background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
+}
+
+.dark .solidRedCTA a:focus,
+.dark .solidRedCTA a:active {
+  outline: none !important;
+}
+
+.dark .solidRedCTA.disabled {
+  display: block !important;
+}
+
+.dark .solidRedCTA.disabled a {
+  background: rgba(99, 102, 107, 1) !important;
+  color: rgba(159, 163, 170, 1) !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.megaMenuLink h6 a:active {
+  background: linear-gradient(
+    270deg,
+    rgba(214, 0, 28, 1),
+    rgba(214, 0, 28, 1)
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+.megaMenuLink:active:after {
+  width: 100%;
+  background: linear-gradient(
+    270deg,
+    rgba(214, 0, 28, 1),
+    rgba(214, 0, 28, 1)
+  ) !important;
+}
+
+.megaMenuLink.disabled {
+  display: block !important;
+}
+
+.megaMenuLink.disabled h6 a {
+  color: transparent !important;
+}
+
+.megaMenuLink.disabled a {
+  cursor: not-allowed !important;
+}
+
+.megaMenuLink.disabled h6 {
+  background: rgba(159, 163, 170, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.megaMenuLink.disabled h6:before {
+  filter: invert(54%) sepia(98%) saturate(0%) hue-rotate(319deg) brightness(87%)
+    contrast(95%) !important;
+  opacity: 1;
+  right: 10px;
+}
+
+.megaMenuLink.disabled {
+  padding: 0 0 0 0px !important;
+}
+
+.megaMenuLink.disabled::after {
+  width: 0% !important;
+  background: rgba(159, 163, 170, 1) !important;
+}
+
+.dark .megaMenuLink h6 a,
+.dark .megaMenuLink p {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.dark .megaMenuLink:hover:after {
+  background: linear-gradient(
+    270deg,
+    #de3349 13.02%,
+    #884c95 98.28%
+  ) !important;
+}
+
+.dark .megaMenuLink:hover h6 {
+  background: linear-gradient(
+    270deg,
+    #de3349 13.02%,
+    #884c95 98.28%
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+.dark .megaMenuLink h6 a:active {
+  background: linear-gradient(
+    270deg,
+    rgba(214, 0, 28, 1),
+    rgba(214, 0, 28, 1)
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+.dark .megaMenuLink:active:after {
+  width: 100%;
+  background: linear-gradient(
+    270deg,
+    rgba(214, 0, 28, 1),
+    rgba(214, 0, 28, 1)
+  ) !important;
+}
+
+.dark .megaMenuLink.disabled {
+  display: block !important;
+}
+
+.dark .megaMenuLink.disabled h6 a,
+.dark .megaMenuLink.disabled p {
+  color: rgba(99, 102, 107, 1) !important;
+}
+
+.dark .megaMenuLink.disabled a {
+  cursor: not-allowed !important;
+}
+
+.dark .megaMenuLink.disabled h6 {
+  background: rgba(159, 163, 170, 1) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+.dark .megaMenuLink.disabled h6 a:active {
+  background: none !important;
+  color: rgba(99, 102, 107, 1) !important;
+  -webkit-background-clip: border-box !important;
+  -webkit-text-fill-color: rgba(99, 102, 107, 1) !important;
+  background-clip: border-box !important;
+  text-fill-color: rgba(99, 102, 107, 1) !important;
+}
+
+.dark .megaMenuLink.disabled h6:before {
+  filter: invert(54%) sepia(98%) saturate(0%) hue-rotate(319deg) brightness(87%)
+    contrast(95%) !important;
+  opacity: 1;
+  right: 10px;
+}
+
+.dark .megaMenuLink.disabled {
+  padding: 0 0 0 0px !important;
+}
+
+.dark .megaMenuLink.disabled::after {
+  width: 0% !important;
+  background: rgba(159, 163, 170, 1) !important;
+}
+
+.planeWBCTA.gradHover a:hover {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+}
+
+.planeWBCTA.gradHover a:active {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    180deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
+  background: #ffffff !important;
+  outline: none !important;
+}
+
+.planeWBCTA.gradHover a:active span.elementor-button-text {
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  -webkit-text-fill-color: transparent !important;
+  text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.planeWBCTA.gradHover.disabled {
+  display: block !important;
+}
+
+.planeWBCTA.gradHover.disabled a {
+  background: rgba(255, 255, 255, 1) !important;
+  color: rgba(159, 163, 170, 1) !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(226, 229, 231, 1) !important;
+}
+
+.planeWBCTA.gradHover.disabled a span.elementor-button-text {
+  background: none !important;
+  -webkit-text-fill-color: rgba(159, 163, 170, 1) !important;
+  text-fill-color: rgba(159, 163, 170, 1) !important;
+  -webkit-background-clip: none !important;
+  background-clip: none !important;
+}
+
+.planeWBCTA.gradHover a:active {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    180deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
+  background: #ffffff !important;
+  outline: none !important;
+}
+
+.planeWBCTA.gradHover a:active span.elementor-button-text {
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  -webkit-text-fill-color: transparent !important;
+  text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.planeWBCTA.gradHover.disabled {
+  display: block !important;
+}
+
+.planeWBCTA.gradHover.disabled a {
+  background: rgba(255, 255, 255, 1) !important;
+  color: rgba(159, 163, 170, 1) !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(226, 229, 231, 1) !important;
+}
+
+.planeWBCTA.gradHover.disabled a span.elementor-button-text {
+  background: none !important;
+  -webkit-text-fill-color: rgb(52 94 168) !important;
+  text-fill-color: rgba(159, 163, 170, 1) !important;
+  -webkit-background-clip: none !important;
+  background-clip: none !important;
+}
+
+.dark .planeWBCTA.gradHover.disabled a {
+  background: transparent !important;
+  color: rgba(99, 102, 107, 1) !important;
+}
+
+.dark .planeWBCTA.gradHover.disabled a span {
+  -webkit-text-fill-color: rgba(99, 102, 107, 1) !important;
+  text-fill-color: rgba(99, 102, 107, 1) !important;
+}
+
+.dark .planeWBCTA.gradHover.disabled a {
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+div.ast-scroll-top-icon {
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+div.ast-scroll-top-icon:hover {
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 #884c95 !important;
+}
+
+div.ast-scroll-top-icon:active {
+  box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
+  border: none !important;
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+}
+
+div.ast-scroll-top-icon.disabled {
+  display: block !important;
+  box-shadow: none !important;
+  background: rgba(226, 229, 231, 1) !important;
+}
+
+div.ast-scroll-top-icon.disabled:hover {
+  cursor: not-allowed !important;
+}
+
+div.ast-scroll-top-icon.disabled span {
+  color: rgba(159, 163, 170, 1) !important;
+}
+
+.dark div.ast-scroll-top-icon {
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+.dark div.ast-scroll-top-icon:hover {
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(136, 76, 149, 1) !important;
+}
+
+.dark div.ast-scroll-top-icon:active {
+  box-shadow: 3px 3px 0 0 rgba(15, 15, 26, 0.4) inset !important;
+  border: none !important;
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+}
+
+.dark div.ast-scroll-top-icon.disabled {
+  display: block !important;
+  box-shadow: none !important;
+  background: rgba(99, 102, 107, 1) !important;
+}
+
+.dark div.ast-scroll-top-icon.disabled:hover {
+  cursor: not-allowed !important;
+}
+
+.dark div.ast-scroll-top-icon.disabled span {
+  color: rgba(159, 163, 170, 1) !important;
+}
+
+.bottomBorderGCta a svg,
+.bottomBorderGCta a svg path {
+  fill: rgba(99, 102, 107, 1);
+}
+
+.bottomBorderGCta a:hover span svg,
+.bottomBorderGCta a:hover span svg path,
+.bottomBorderGCta a:active span svg,
+.bottomBorderGCta a:active span svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.bottomBorderGCta.disabled a span.elementor-icon svg,
+.bottomBorderGCta.disabled a span.elementor-icon svg path,
+.bottomBorderGCta.disabled a:hover span.elementor-icon svg,
+.bottomBorderGCta.disabled a:hover span.elementor-icon svg path,
+.bottomBorderGCta.diabled a:active span.elementor-icon svg,
+.bottomBorderGCta.diabled a:active span.elementor-icon svg path {
+  fill: rgba(159, 163, 170, 1) !important;
+}
+
+.bottomBorderGCta a:focus {
+  outline: none !important;
+}
+
+.bottomBorderGCta a:active,
+.bottomBorderGCta a:active::before {
+  background: linear-gradient(
+    270deg,
+    rgba(214, 0, 28, 1),
+    rgba(214, 0, 28, 1)
+  ) !important;
+}
+
+.bottomBorderGCta a:active {
+  -webkit-text-fill-color: transparent !important;
+  text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  outline: none !important;
+}
+
+.bottomBorderGCta.disabled {
+  display: block !important;
+}
+
+.bottomBorderGCta.disabled a:before {
+  background: rgba(159, 163, 170, 1) !important;
+}
+
+.bottomBorderGCta.disabled a {
+  cursor: not-allowed !important;
+}
+
+.bottomBorderGCta.disabled a {
+  -webkit-text-fill-color: rgba(159, 163, 170, 1) !important;
+  text-fill-color: rgba(159, 163, 170, 1) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.bottomBorderGCta.disabled a svg,
+.bottomBorderGCta.disabled a svg path {
+  fill: rgba(159, 163, 170, 1) !important;
+}
+
+.bottomBorderGCta.disabled a:hover .elementor-button-text {
+  margin-right: 15px !important;
+}
+
+.dark .bottomBorderGCta a:before {
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+.dark .bottomBorderGCta a {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.dark .bottomBorderGCta a svg {
+  fill: rgba(255, 255, 255, 1) !important;
+}
+
+.dark .bottomBorderGCta a:hover:before {
+  background: linear-gradient(
+    270deg,
+    #de3349 13.02%,
+    #884c95 98.28%
+  ) !important;
+}
+
+.dark .bottomBorderGCta a:hover {
+  background: linear-gradient(
+    270deg,
+    #de3349 13.02%,
+    #884c95 98.28%
+  ) !important;
+  -webkit-text-fill-color: transparent !important;
+  text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.dark .bottomBorderGCta a:focus {
+  outline: none !important;
+}
+
+.dark .bottomBorderGCta a:active,
+.dark .bottomBorderGCta a:active::before {
+  background: linear-gradient(
+    270deg,
+    rgba(214, 0, 28, 1),
+    rgba(214, 0, 28, 1)
+  ) !important;
+}
+
+.dark .bottomBorderGCta a:active {
+  -webkit-text-fill-color: transparent !important;
+  text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  outline: none !important;
+}
+
+.dark .bottomBorderGCta.disabled {
+  display: block !important;
+}
+
+.dark .bottomBorderGCta.disabled a:before {
+  background: rgba(99, 102, 107, 1) !important;
+}
+
+.dark .bottomBorderGCta.disabled a {
+  cursor: not-allowed !important;
+}
+
+.dark .bottomBorderGCta.disabled a {
+  -webkit-text-fill-color: rgba(99, 102, 107, 1) !important;
+  text-fill-color: rgba(99, 102, 107, 1) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.dark .bottomBorderGCta.disabled a svg {
+  fill: rgba(159, 163, 170, 1) !important;
+}
+
+.dark .bottomBorderGCta.disabled a:hover .elementor-button-text {
+  margin-right: 15px !important;
+}
+
+.bottomBorderGCta a:hover span.elementor-align-icon-right svg,
+.bottomBorderGCta a:hover span.elementor-align-icon-right svg path,
+.bottomBorderGCta.icon-align-right a:hover svg,
+.bottomBorderGCta.icon-align-right a:hover svg path {
+  fill: RGB(214, 0, 28) !important;
+}
+
+.bottomBorderGCta a:hover span.elementor-align-icon-left svg,
+.bottomBorderGCta a:hover span.elementor-align-icon-left svg path,
+.bottomBorderGCta.icon-align-left a:hover svg,
+.bottomBorderGCta.icon-align-left a:hover svg path {
+  fill: RGB(106, 31, 122) !important;
+}
+
+.bottomBorderGCta a:active span.elementor-align-icon-right svg,
+.bottomBorderGCta a:active span.elementor-align-icon-right svg path,
+.bottomBorderGCta a:active span.elementor-align-icon-left svg,
+.bottomBorderGCta a:active span.elementor-align-icon-left svg path,
+.bottomBorderGCta.icon-align-right a:active svg,
+.bottomBorderGCta.icon-align-right a:active svg path,
+.bottomBorderGCta.icon-align-left a:active svg,
+.bottomBorderGCta.icon-align-left a:active svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.bottomBorderGCta.disabled a span.elementor-align-icon-right svg,
+.bottomBorderGCta.disabled a span.elementor-align-icon-right svg path,
+.bottomBorderGCta.disabled a span.elementor-align-icon-left svg,
+.bottomBorderGCta.disabled a span.elementor-align-icon-left svg path,
+.bottomBorderGCta.disabled a:hover span.elementor-align-icon-right svg,
+.bottomBorderGCta.disabled a:hover span.elementor-align-icon-right svg path,
+.bottomBorderGCta.disabled a:hover span.elementor-align-icon-left svg,
+.bottomBorderGCta.disabled a:hover span.elementor-align-icon-left svg path,
+.bottomBorderGCta.disabled a:active span.elementor-align-icon-right svg,
+.bottomBorderGCta.disabled a:active span.elementor-align-icon-right svg path,
+.bottomBorderGCta.disabled a:active span.elementor-align-icon-left svg,
+.bottomBorderGCta.disabled a:active span.elementor-align-icon-left svg path,
+.bottomBorderGCta.disabled.icon-align-right a svg,
+.bottomBorderGCta.disabled.icon-align-right a svg path,
+.bottomBorderGCta.disabled.icon-align-left a svg,
+.bottomBorderGCta.disabled.icon-align-left a svg path,
+.bottomBorderGCta.disabled.icon-align-right a:hover svg,
+.bottomBorderGCta.disabled.icon-align-right a:hover svg path,
+.bottomBorderGCta.disabled.icon-align-left a:hover svg,
+.bottomBorderGCta.disabled.icon-align-left a:hover svg path,
+.bottomBorderGCta.disabled.icon-align-right a:active svg,
+.bottomBorderGCta.disabled.icon-align-right a:active svg path,
+.bottomBorderGCta.disabled.icon-align-left a:active svg,
+.bottomBorderGCta.disabled.icon-align-left a:active svg path {
+  fill: rgba(159, 163, 170, 1) !important;
+}
+
+.dark .bottomBorderGCta a span.elementor-align-icon-right svg,
+.dark .bottomBorderGCta a span.elementor-align-icon-right svg path,
+.dark .bottomBorderGCta a span.elementor-align-icon-left svg,
+.dark .bottomBorderGCta a span.elementor-align-icon-left svg path,
+.dark .bottomBorderGCta.icon-align-right a svg,
+.dark .bottomBorderGCta.icon-align-right a svg path,
+.dark .bottomBorderGCta.icon-align-left a svg,
+.dark .bottomBorderGCta.icon-align-left a svg path {
+  fill: rgba(255, 255, 255, 1) !important;
+}
+
+.dark .bottomBorderGCta a:hover span.elementor-align-icon-left svg,
+.dark .bottomBorderGCta a:hover span.elementor-align-icon-left svg path,
+.dark .bottomBorderGCta.icon-align-left a:hover svg,
+.dark .bottomBorderGCta.icon-align-left a:hover svg path {
+  fill: rgba(136, 76, 149, 1) !important;
+}
+
+.dark .bottomBorderGCta a:hover span.elementor-align-icon-right svg,
+.dark .bottomBorderGCta a:hover span.elementor-align-icon-right svg path,
+.dark .bottomBorderGCta.icon-align-right a:hover svg,
+.dark .bottomBorderGCta.icon-align-right a:hover svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.dark .bottomBorderGCta a:active span.elementor-align-icon-right svg,
+.dark .bottomBorderGCta a:active span.elementor-align-icon-right svg path,
+.dark .bottomBorderGCta a:active span.elementor-align-icon-left svg,
+.dark .bottomBorderGCta a:active span.elementor-align-icon-left svg path,
+.dark .bottomBorderGCta.icon-align-right a:active svg,
+.dark .bottomBorderGCta.icon-align-right a:active svg path,
+.dark .bottomBorderGCta.icon-align-left a:active svg,
+.dark .bottomBorderGCta.icon-align-left a:active svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.dark .bottomBorderGCta.disabled a span.elementor-align-icon-right svg,
+.dark .bottomBorderGCta.disabled a span.elementor-align-icon-right svg path,
+.dark .bottomBorderGCta.disabled a span.elementor-align-icon-left svg,
+.dark .bottomBorderGCta.disabled a span.elementor-align-icon-left svg path,
+.dark .bottomBorderGCta.disabled a:hover span.elementor-align-icon-right svg,
+.dark
+  .bottomBorderGCta.disabled
+  a:hover
+  span.elementor-align-icon-right
+  svg
+  path,
+.dark .bottomBorderGCta.disabled a:hover span.elementor-align-icon-left svg,
+.dark
+  .bottomBorderGCta.disabled
+  a:hover
+  span.elementor-align-icon-left
+  svg
+  path,
+.dark .bottomBorderGCta.diabled a:active span.elementor-align-icon-right svg,
+.dark
+  .bottomBorderGCta.diabled
+  a:active
+  span.elementor-align-icon-right
+  svg
+  path,
+.dark .bottomBorderGCta.diabled a:active span.elementor-align-icon-left svg,
+.dark
+  .bottomBorderGCta.diabled
+  a:active
+  span.elementor-align-icon-left
+  svg
+  path,
+.dark .bottomBorderGCta.disabled.icon-align-right a svg,
+.dark .bottomBorderGCta.disabled.icon-align-right a svg path,
+.dark .bottomBorderGCta.disabled.icon-align-left a svg,
+.dark .bottomBorderGCta.disabled.icon-align-left a svg path,
+.dark .bottomBorderGCta.disabled.icon-align-right a:hover svg,
+.dark .bottomBorderGCta.disabled.icon-align-right a:hover svg path,
+.dark .bottomBorderGCta.disabled.icon-align-left a:hover svg,
+.dark .bottomBorderGCta.disabled.icon-align-left a:hover svg path,
+.dark .bottomBorderGCta.diabled.icon-align-right a:active svg,
+.dark .bottomBorderGCta.diabled.icon-align-right a:active svg path,
+.dark .bottomBorderGCta.diabled.icon-align-left a:active svg,
+.dark .bottomBorderGCta.diabled.icon-align-left a:active svg path {
+  fill: rgba(99, 102, 107, 1) !important;
+}
+
+div#loadMore a span {
+  border: 1px solid rgba(214, 0, 28, 1) !important;
+  background: transparent !important;
+  color: rgba(214, 0, 28, 1) !important;
+}
+
+div#loadMore a:hover span,
+div#loadMore a:active span {
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 1) !important;
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+div#loadMore a:active span {
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
+}
+
+div#loadMore.disabled a:hover {
+  cursor: not-allowed !important;
+}
+
+div#loadMore.disabled span,
+div#loadMore.disabled a:hover span,
+div#loadMore.disabled a:active span {
+  border: 1px solid rgba(226, 229, 231, 1) !important;
+  background-color: #ffffff !important;
+  color: rgba(159, 163, 170, 1) !important;
+  box-shadow: none !important;
+  background: none !important;
+  -webkit-text-fill-color: rgba(159, 163, 170, 1) !important;
+  text-fill-color: rgba(159, 163, 170, 1) !important;
+}
+
+.customPostSlideGrid a.postReadmore {
+  border: 1px solid rgba(214, 0, 28, 1) !important;
+}
+
+.customPostSlideGrid a.postReadmore:hover {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 1) !important;
+}
+
+.customPostSlideGrid a.postReadmore:focus {
+  outline: none !important;
+}
+
+.customPostSlideGrid a.postReadmore:active {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
+  outline: none !important;
+}
+
+.customPostSlideGrid a.postReadmore.disabled {
+  border: 1px solid rgba(226, 229, 231, 1) !important;
+  color: rgba(159, 163, 170, 1) !important;
+  box-shadow: none !important;
+}
+
+.customPostSlideGrid a.postReadmore.disabled:hover {
+  cursor: not-allowed !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.customPostSlideGrid a.postReadmore.disabled:hover span {
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  -webkit-text-fill-color: rgba(159, 163, 170, 1) !important;
+  background-clip: border-box !important;
+  text-fill-color: rgba(159, 163, 170, 1) !important;
+}
+
+.customPostSlideGrid a.postReadmore.disabled:active {
+  border: 1px solid rgba(226, 229, 231, 1) !important;
+  box-shadow: none !important;
+}
+
+.customPostSlideGrid a.postReadmore.disabled:after {
+  background: url(https://poc.nashtechglobal.vn/wp-content/uploads/2024/05/redBorderGCtaBtn-right-arrow.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footerCTAlinks.active a.elementor-button:focus {
+  outline: none !important;
+}
+
+.footerCTAlinks.active a .elementor-button-text:active {
+  background: rgba(214, 0, 28, 1) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  box-shadow: none !important;
+}
+
+.textButton a {
+  color: #63666b !important;
+}
+
+.textButton a::before {
+  background: #d6001c;
+  content: "";
+  display: block !important;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.textButton a .elementor-align-icon-right {
+  position: absolute;
+  right: 0;
+}
+
+.textButton a .elementor-align-icon-right + .elementor-button-text {
+  margin-right: 30px;
+}
+
+.textButton:hover a::before {
+  background: linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%);
+}
+
+.textButton:hover a svg path {
+  fill: #d6001c !important;
+}
+
+.textButton a:hover .elementor-button-text {
+  box-shadow: none !important;
+  background: linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.textButton a:hover .elementor-button-text {
+  transform: translateX(5px);
+  transition: 0.3s;
+}
+
+.textButton a:active .elementor-button-text {
+  box-shadow: none !important;
+  background: linear-gradient(
+    270deg,
+    rgba(214, 0, 28, 1),
+    rgba(214, 0, 28, 1)
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+.textButton a:active::before {
+  background: linear-gradient(#d6001c, #d6001c) !important;
+}
+
+.textButton a:focus {
+  outline: none !important;
+}
+
+.ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control {
+  border: none !important;
+  background: linear-gradient(
+    270deg,
+    RGB(214, 0, 28) 13.02%,
+    RGB(214, 0, 28) 98.28%
+  ) !important;
+  border-radius: 0px !important;
+}
+
+.ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
+    [disabled]
+  ):hover {
+  box-shadow: 3px 3px 0 0 rgba(106, 31, 122, 1) !important;
+  background: linear-gradient(
+    270deg,
+    #c4001a 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  -webkit-text-fill-color: white !important;
+  text-fill-color: white !important;
+  color: white !important;
+  border-radius: 0px !important;
+}
+
+.ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
+    [disabled]
+  ):active {
+  box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
+  background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
+  border-radius: 0px !important;
+}
+
+.ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
+    [disabled]
+  ):hover:active {
+  box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
+  background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
+}
+
+.ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled] {
+  display: block !important;
+}
+
+.ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled]:hover {
+  webkit-text-fill-color: rgba(159, 163, 170, 1) !important;
+  text-fill-color: rgba(159, 163, 170, 1) !important;
+  cursor: not-allowed !important;
+}
+
+.ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled] {
+  background: rgba(226, 229, 231, 1) !important;
+  color: rgba(159, 163, 170, 1) !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.dark .ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control {
+  border: none !important;
+  background: linear-gradient(
+    270deg,
+    RGB(214, 0, 28) 13.02%,
+    RGB(214, 0, 28) 98.28%
+  ) !important;
+  border-radius: 0px !important;
+}
+
+.dark
+  .ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
+    [disabled]
+  ):hover {
+  box-shadow: 3px 3px 0 0 rgba(136, 76, 149, 1) !important;
+  background: linear-gradient(
+    270deg,
+    #c4001a 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  -webkit-text-fill-color: white !important;
+  text-fill-color: white !important;
+  color: white !important;
+  border-radius: 0px !important;
+}
+
+.dark
+  .ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
+    [disabled]
+  ):active {
+  box-shadow: 3px 3px 0 0 rgba(15, 15, 26, 0.4) inset !important;
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  border-radius: 0px !important;
+}
+
+.dark
+  .ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
+    [disabled]
+  ):hover:active {
+  box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
+  background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
+}
+
+.dark
+  .ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled] {
+  display: block !important;
+}
+
+.dark
+  .ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled]:hover {
+  webkit-text-fill-color: rgba(159, 163, 170, 1) !important;
+  text-fill-color: rgba(159, 163, 170, 1) !important;
+  cursor: not-allowed !important;
+}
+
+.dark
+  .ctaWrap
+  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled] {
+  background: rgba(99, 102, 107, 1) !important;
+  color: rgba(159, 163, 170, 1) !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.dark .bottomBorderWCta:not(.disabled):hover a.elementor-button-link svg path {
+  fill: #de3349 !important;
+}
+
+.dark .bottomBorderWCta:not(.disabled) a:hover span.elementor-button-text {
+  background: linear-gradient(
+    270deg,
+    #de3349 13.02%,
+    #884c95 98.28%
+  ) !important;
+  -webkit-background-clip: text !important;
+}
+
+.dark .bottomBorderWCta:not(.disabled) a:hover:before {
+  background: linear-gradient(270deg, #de3349 13.02%, #884c95 98.28%);
+}
+
+.dark
+  .bottomBorderWCta:not(.disabled):hover
+  a
+  .elementor-align-icon-left
+  svg
+  path {
+  fill: rgba(136, 76, 149, 1) !important;
+}
+
+.dark
+  .bottomBorderWCta:not(.disabled):hover
+  a
+  .elementor-align-icon-right
+  svg
+  path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.dark
+  .bottomBorderWCta:not(.disabled):hover
+  a.elementor-button-link
+  .elementor-align-icon-right
+  svg
+  path {
+  fill: #de3349 !important;
+}
+
+.dark
+  .bottomBorderWCta:not(.disabled):hover
+  a.elementor-button-link
+  .elementor-align-icon-left
+  svg
+  path {
+  fill: #884c95 !important;
+}
+
+.dark .bottomBorderWCta:not(.disabled):active a.elementor-button-link svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.dark .bottomBorderWCta:not(.disabled) a:focus {
+  outline: none !important;
+}
+
+.dark .bottomBorderWCta:not(.disabled) a:active span.elementor-button-text {
+  background: linear-gradient(
+    270deg,
+    rgba(214, 0, 28, 1),
+    rgba(214, 0, 28, 1)
+  ) !important;
+  -webkit-background-clip: text !important;
+}
+
+.dark .bottomBorderWCta:not(.disabled) a:active:before {
+  background: linear-gradient(270deg, rgba(214, 0, 28, 1), rgba(214, 0, 28, 1));
+}
+
+.dark .bottomBorderWCta.disabled a.elementor-button-link svg path {
+  fill: rgba(99, 102, 107, 1) !important;
+}
+
+.dark .bottomBorderWCta.disabled:hover a {
+  background: linear-gradient(
+    rgba(99, 102, 107, 1),
+    rgba(99, 102, 107, 1)
+  ) !important;
+  -webkit-background-clip: text !important;
+}
+
+.dark .bottomBorderWCta.disabled a span.elementor-button-text {
+  color: rgba(99, 102, 107, 1) !important;
+  -webkit-background-clip: text !important;
+}
+
+.dark .bottomBorderWCta.disabled a:before {
+  background: rgba(99, 102, 107, 1) !important;
+}
+
+.dark .bottomBorderWCta.disabled a:hover {
+  cursor: not-allowed !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA a,
+.planeRBCTA a {
+  border: 1px solid rgba(214, 0, 28, 1) !important;
+  color: rgba(214, 0, 28, 1) !important;
+  background: transparent !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA a.elementor-animation-float {
+  transform: none !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA a:hover,
+.planeRBCTA.gradHover a:hover,
+.planeRBCTA a:hover {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 1) !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA a:focus,
+.planeRBCTA.gradHover a:focus,
+.planeRBCTA a:focus {
+  outline: none !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA a:active,
+.planeRBCTA.gradHover a:active,
+.planeRBCTA a:active {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
+  outline: none !important;
+}
+
+.post.category-case-studies
+  .excerptWrap
+  .lineCTA
+  a:hover
+  span.elementor-button-text,
+.post.category-case-studies
+  .excerptWrap
+  .lineCTA
+  a:active
+  span.elementor-button-text,
+.planeRBCTA.gradHover a:active span.elementor-button-text,
+.planeRBCTA a:active span.elementor-button-text {
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  -webkit-text-fill-color: transparent !important;
+  text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA.disabled,
+.planeRBCTA.gradHover.disabled,
+.planeRBCTA.disabled {
+  display: block !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA.disabled a,
+.planeRBCTA.gradHover.disabled a,
+.planeRBCTA.disabled a {
+  background: transparent !important;
+  color: rgba(159, 163, 170, 1) !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(226, 229, 231, 1) !important;
+}
+
+.post.category-case-studies
+  .excerptWrap
+  .lineCTA.disabled
+  span.elementor-button-icon
+  svg,
+.post.category-case-studies
+  .excerptWrap
+  .lineCTA.disabled
+  span.elementor-button-icon
+  svg
+  path,
+.planeRBCTA.gradHover.disabled span.elementor-button-icon svg,
+.planeRBCTA.disabled span.elementor-button-icon svg,
+.planeRBCTA.gradHover.disabled span.elementor-button-icon svg path,
+.planeRBCTA.disabled span.elementor-button-icon svg path {
+  fill: rgba(159, 163, 170, 1) !important;
+}
+
+.post.category-case-studies
+  .excerptWrap
+  .lineCTA.disabled
+  span.elementor-button-text,
+.planeRBCTA.gradHover.disabled a span.elementor-button-text,
+.planeRBCTA.disabled a span.elementor-button-text {
+  background: none !important;
+  -webkit-text-fill-color: rgba(159, 163, 170, 1) !important;
+  text-fill-color: rgba(159, 163, 170, 1) !important;
+  -webkit-background-clip: none !important;
+  background-clip: none !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA a,
+.dark .planeRBCTA.gradHover a,
+.dark .planeRBCTA a {
+  border: 1px solid rgba(255, 255, 255, 1) !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA a:hover,
+.dark .planeRBCTA.gradHover a:hover,
+.dark .planeRBCTA a:hover {
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA a:hover,
+.dark .planeRBCTA.gradHover a:hover,
+.dark .planeRBCTA a:hover {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 1) !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA a:focus,
+.dark .planeRBCTA.gradHover a:focus,
+.dark .planeRBCTA a:focus {
+  outline: none !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA a:active,
+.dark .planeRBCTA.gradHover a:active,
+.dark .planeRBCTA a:active {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
+  outline: none !important;
+}
+
+.dark
+  .post.category-case-studies
+  .excerptWrap
+  .lineCTA
+  a:active
+  span.elementor-button-text,
+.dark .planeRBCTA.gradHover a:active span.elementor-button-text,
+.dark .planeRBCTA a:active span.elementor-button-text {
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  -webkit-text-fill-color: transparent !important;
+  text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA.disabled,
+.dark .planeRBCTA.gradHover.disabled,
+.dark .planeRBCTA.disabled {
+  display: block !important;
+}
+
+.dark
+  .post.category-case-studies
+  .excerptWrap
+  .lineCTA.disabled
+  a
+  span.elementor-button-text,
+.dark .planeRBCTA.gradHover.disabled a span.elementor-button-text,
+.dark .planeRBCTA.disabled a span.elementor-button-text {
+  background: none !important;
+  -webkit-text-fill-color: unset !important;
+  text-fill-color: unset !important;
+  -webkit-background-clip: none !important;
+  background-clip: none !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA.disabled a,
+.dark .planeRBCTA.gradHover.disabled a,
+.dark .planeRBCTA.disabled a {
+  background: transparent !important;
+  color: rgba(99, 102, 107, 1) !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA.disabled a,
+.dark .planeRBCTA.gradHover.disabled a,
+.dark .planeRBCTA.disabled a {
+  box-shadow: none !important;
+  border: 1px solid rgba(226, 229, 231, 0.5) !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA svg,
+.post.category-case-studies .excerptWrap .lineCTA svg path,
+.planeRBCTA a span.elementor-align-icon-right svg,
+.planeRBCTA a span.elementor-align-icon-right svg path,
+.planeRBCTA.icon-align-right a svg,
+.planeRBCTA.icon-align-right a svg path,
+.planeRBCTA a span.elementor-align-icon-left svg,
+.planeRBCTA a span.elementor-align-icon-left svg path,
+.planeRBCTA.icon-align-left svg,
+.planeRBCTA.icon-align-left svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.planeRBCTA a:hover span.elementor-align-icon-right svg,
+.planeRBCTA a:hover span.elementor-align-icon-right svg path,
+.planeRBCTA.icon-align-right a:hover span.elementor-align-icon-right svg,
+.planeRBCTA.icon-align-right a:hover span.elementor-align-icon-right svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA a:hover svg,
+.post.category-case-studies .excerptWrap .lineCTA a:hover svg path,
+.planeRBCTA a:hover span.elementor-align-icon-left svg,
+.planeRBCTA a:hover span.elementor-align-icon-left svg path,
+.planeRBCTA.icon-align-left a:hover svg,
+.planeRBCTA.icon-align-left a:hover svg path {
+  fill: rgba(106, 31, 122, 1) !important;
+}
+
+.planeRBCTA a:active span.elementor-align-icon-right svg,
+.planeRBCTA a:active span.elementor-align-icon-right svg path,
+.planeRBCTA.icon-align-right a:active svg,
+.planeRBCTA.icon-align-right a:active svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.post.category-case-studies .excerptWrap .lineCTA a:active svg,
+.post.category-case-studies .excerptWrap .lineCTA a:active svg path,
+.planeRBCTA a:active span.elementor-align-icon-left svg,
+.planeRBCTA a:active span.elementor-align-icon-left svg path,
+.planeRBCTA.icon-align-left a:active svg,
+.planeRBCTA.icon-align-left a:active svg path {
+  fill: rgba(106, 31, 122, 1) !important;
+}
+
+.planeRBCTA.disabled a span.elementor-align-icon-right svg,
+.planeRBCTA.disabled a span.elementor-align-icon-right svg path,
+.post.category-case-studies .excerptWrap .lineCTA.disabled a svg,
+.post.category-case-studies .excerptWrap .lineCTA.disabled a svg path,
+.planeRBCTA.disabled a span.elementor-align-icon-left svg,
+.planeRBCTA.disabled a span.elementor-align-icon-left svg path,
+.planeRBCTA.disabled a:hover span.elementor-align-icon-right svg,
+.planeRBCTA.disabled a:hover span.elementor-align-icon-right svg path,
+.post.category-case-studies .excerptWrap .lineCTA.disabled a:hover svg,
+.post.category-case-studies .excerptWrap .lineCTA.disabled a:hover svg path,
+.planeRBCTA.disabled a:hover span.elementor-align-icon-left svg,
+.planeRBCTA.disabled a:hover span.elementor-align-icon-left svg path,
+.planeRBCTA.disabled a:active span.elementor-align-icon-right svg,
+.planeRBCTA.disabled a:active span.elementor-align-icon-right svg path,
+.post.category-case-studies .excerptWrap .lineCTA.disabled a:active svg,
+.post.category-case-studies .excerptWrap .lineCTA.disabled a:active svg path,
+.planeRBCTA.disabled a:active span.elementor-align-icon-left svg,
+.planeRBCTA.disabled a:active span.elementor-align-icon-left svg path,
+.planeRBCTA.disabled.icon-align-right a svg,
+.planeRBCTA.disabled.icon-align-right a svg path,
+.planeRBCTA.disabled.icon-align-left a svg,
+.planeRBCTA.disabled.icon-align-left a svg path,
+.planeRBCTA.disabled.icon-align-right a:hover svg,
+.planeRBCTA.disabled.icon-align-right a:hover svg path,
+.planeRBCTA.disabled.icon-align-left a:hover svg,
+.planeRBCTA.disabled.icon-align-left a:hover svg path,
+.planeRBCTA.disabled.icon-align-right a:active svg,
+.planeRBCTA.disabled.icon-align-right a:active svg path,
+.planeRBCTA.disabled.icon-align-left a:active svg,
+.planeRBCTA.disabled.icon-align-left a:active svg path {
+  fill: rgba(159, 163, 170, 1) !important;
+}
+
+.dark .planeRBCTA a span.elementor-align-icon-right svg,
+.dark .planeRBCTA a span.elementor-align-icon-right svg path,
+.dark .post.category-case-studies .excerptWrap .lineCTA.disabled svg,
+.dark .post.category-case-studies .excerptWrap .lineCTA.disabled svg path,
+.dark .planeRBCTA a span.elementor-align-icon-left svg,
+.dark .planeRBCTA a span.elementor-align-icon-left svg path,
+.dark .planeRBCTA.icon-align-right a svg,
+.dark .planeRBCTA.icon-align-right a svg path,
+.dark .planeRBCTA.icon-align-left a svg,
+.dark .planeRBCTA.icon-align-left a svg path {
+  fill: rgba(255, 255, 255, 1) !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA.disabled a:hover svg,
+.dark
+  .post.category-case-studies
+  .excerptWrap
+  .lineCTA.disabled
+  a:hover
+  svg
+  path,
+.dark .planeRBCTA a:hover span.elementor-align-icon-left svg,
+.dark .planeRBCTA a:hover span.elementor-align-icon-left svg path,
+.dark .planeRBCTA.icon-align-left a:hover svg,
+.dark .planeRBCTA.icon-align-left a:hover svg path {
+  fill: rgba(136, 76, 149, 1) !important;
+}
+
+.dark .planeRBCTA a:hover span.elementor-align-icon-right svg,
+.dark .planeRBCTA a:hover span.elementor-align-icon-right svg path,
+.dark .planeRBCTA.icon-align-right a:hover svg,
+.dark .planeRBCTA.icon-align-right a:hover svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.dark .planeRBCTA a:active span.elementor-align-icon-right svg,
+.dark .planeRBCTA a:active span.elementor-align-icon-right svg path,
+.dark .planeRBCTA.icon-align-right a:active svg,
+.dark .planeRBCTA.icon-align-right a:active svg path {
+  fill: rgba(214, 0, 28, 1) !important;
+}
+
+.dark .post.category-case-studies .excerptWrap .lineCTA a:active svg,
+.dark .post.category-case-studies .excerptWrap .lineCTA a:active svg path,
+.dark .planeRBCTA a:active span.elementor-align-icon-left svg,
+.dark .planeRBCTA a:active span.elementor-align-icon-left svg path,
+.dark .planeRBCTA.icon-align-left a:active svg,
+.dark .planeRBCTA.icon-align-left a:active svg path {
+  fill: rgba(106, 31, 122, 1) !important;
+}
+
+.dark .planeRBCTA.disabled a span.elementor-align-icon-right svg,
+.dark .planeRBCTA.disabled a span.elementor-align-icon-right svg path,
+.dark .post.category-case-studies .excerptWrap .lineCTA svg,
+.dark .post.category-case-studies .excerptWrap .lineCTA svg path,
+.dark .planeRBCTA.disabled a span.elementor-align-icon-left svg,
+.dark .planeRBCTA.disabled a span.elementor-align-icon-left svg path,
+.dark .planeRBCTA.disabled a:hover span.elementor-align-icon-right svg,
+.dark .planeRBCTA.disabled a:hover span.elementor-align-icon-right svg path,
+.dark .post.category-case-studies .excerptWrap .lineCTA a:hover svg,
+.dark .post.category-case-studies .excerptWrap .lineCTA a:hover svg path,
+.dark .planeRBCTA.disabled a:hover span.elementor-align-icon-left svg,
+.dark .planeRBCTA.disabled a:hover span.elementor-align-icon-left svg path,
+.dark .planeRBCTA.disabled a:active span.elementor-align-icon-right svg,
+.dark .planeRBCTA.disabled a:active span.elementor-align-icon-right svg path,
+.dark .post.category-case-studies .excerptWrap .lineCTA a:active svg,
+.dark .post.category-case-studies .excerptWrap .lineCTA a:active svg path,
+.dark .planeRBCTA.disabled a:active span.elementor-align-icon-left svg,
+.dark .planeRBCTA.disabled a:active span.elementor-align-icon-left svg path,
+.dark .planeRBCTA.disabled.icon-align-right svg,
+.dark .planeRBCTA.disabled.icon-align-right svg path,
+.dark .planeRBCTA.disabled.icon-align-left svg,
+.dark .planeRBCTA.disabled.icon-align-left svg path,
+.dark .planeRBCTA.disabled.icon-align-right a:hover svg,
+.dark .planeRBCTA.disabled.icon-align-right a:hover svg path,
+.dark .planeRBCTA.disabled.icon-align-left a:hover svg,
+.dark .planeRBCTA.disabled.icon-align-left a:hover svg path,
+.dark .planeRBCTA.disabled.icon-align-right a:active svg,
+.dark .planeRBCTA.disabled.icon-align-right a:active svg path,
+.dark .planeRBCTA.disabled.icon-align-left a:active svg,
+.dark .planeRBCTA.disabled.icon-align-left a:active svg path {
+  fill: rgba(99, 102, 107, 1) !important;
+}
+
+.lineCTA.gradHover a:focus {
+  outline: none !important;
+}
+
+.lineCTA.gradHover a:active {
+  border: 1px solid !important;
+  border-image-slice: 1 !important;
+  border-image-source: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
+  outline: none !important;
+}
+
+.lineCTA.gradHover a:active span.elementor-button-text {
+  background: linear-gradient(
+    270deg,
+    #d6001c 13.02%,
+    #6a1f7a 98.28%
+  ) !important;
+  -webkit-text-fill-color: transparent !important;
+  text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.footerMain.dark
+  .footerMenu
+  .elementor-icon-list-item:hover
+  .elementor-icon-list-icon
+  svg,
+.footerMain.dark
+  .footerMenu
+  .elementor-icon-list-item:hover
+  .elementor-icon-list-icon
+  svg
+  path {
+  fill: #d9d9d9 !important;
+}
+
+.footerMain.dark
+  .footerMenu
+  .elementor-icon-list-item:hover
+  .elementor-icon-list-text {
+  color: #d9d9d9 !important;
+}
+
+.form-group {
+  font-family: "Mulish";
+  position: relative;
+  margin-bottom: 15px;
+}
+
+input,
+select,
+textarea {
+  color: #2a2e3a !important;
+  font-family: "Mulish";
+  font-weight: 500;
+}
+
+input.wpcf7-form-control:not([type="submit"]),
+textarea.wpcf7-form-control {
+  background: #f5f6f8;
+  border-radius: 4px;
+  border: 0;
+  margin-bottom: 0;
+  padding: 20px 15px 5px !important;
+  font-size: 16px;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+input.wpcf7-form-control:focus,
+textarea.wpcf7-form-control:focus {
+  border-bottom: 2px solid #6a1f7a !important;
+  border-radius: 4px 4px 0 0;
+  background: #f5f6f8;
+}
+
+.country-select.inside input,
+.country-select.inside input[type="text"] {
+  padding-left: 52px !important;
+}
+
+input.wpcf7-form-control:not([type="submit"]) {
+  height: 50px;
+}
+
+.wpcf7-form-control-wrap input[type="tel"] {
+  padding-left: 25px !important;
+}
+
+.country-select.inside input,
+.country-select.inside input[type="text"] {
+  padding-top: 5px !important;
+}
+
+.country-select:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50px;
+  display: block !important;
+  width: calc(100% - 50px);
+  height: 100%;
+  background: #0000;
+  z-index: 99;
+}
+
+.country-select input {
+  pointer-events: none !important;
+}
+
+form.wpcf7-form.submitting .recaptchaDisclaimer:before {
+  content: "Submitting";
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #f3a7b2;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px;
+}
+
+input.wpcf7-submit[type="submit"]:hover,
+input.wpcf7-submit[type="submit"]:focus,
+input.wpcf7-submit[type="submit"]:active {
+  background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
+}
+
+span.wpcf7-spinner {
+  position: absolute;
+  top: 25px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  margin: 0 !important;
+}
+
+.form-group.mt-3 {
+  margin-top: 25px;
+}
+
+.form-group.mt-3 h6 {
+  margin-bottom: 0px !important;
+}
+
+span.wpcf7-not-valid-tip {
+  position: absolute;
+  font-size: 12px;
+  text-align: right;
+  right: 0;
+  z-index: 1;
+  top: -5px;
+}
+
+.wpcf7-form label {
+  font-size: 14px;
+}
+
+.wpcf7 form .wpcf7-response-output {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  background-color: #fff;
+}
+
+.wpcf7-submit[disabled="disabled"] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  position: relative !important;
+  display: block !important;
+  height: max-content !important;
+  background-color: RGB(223, 240, 216);
+  color: RGB(48, 184, 86) !important;
+  padding: 8px 4px 8px 40px !important;
+  width: calc(100%) !important;
+  text-align: left !important;
+  border: none !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  margin: auto 0px !important;
+  line-height: 1.4 !important;
+}
+
+.wpcf7 form.sent .wpcf7-response-output::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../../uploads/2023/09/check_circle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: hue-rotate(190deg) saturate(1) brightness(2) !important;
+}
+
+.wpcf7 form.send .wpcf7-response-output,
+.wpcf7 form.set .wpcf7-response-output,
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.submit .wpcf7-response-output,
+.wpcf7 form.resetting .wpcf7-response-output,
+.wpcf7 form.custom-invalid-fields .wpcf7-response-output {
+  display: none !important;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.spam .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+  position: relative !important;
+  display: block !important;
+  margin: auto 0px !important;
+}
+
+form.wpcf7-form.submitting .recaptchaDisclaimer:before {
+  line-height: 28px !important;
+}
+
+@media (min-width: 545px) {
+  .single.ast-page-builder-template .post-navigation {
+    display: none !important;
+  }
+}
+
+.single.ast-page-builder-template .entry-header + .entry-content {
+  margin-bottom: -1px;
+}

@@ -1,0 +1,44 @@
+.elementor-24799 .elementor-element.elementor-element-6e02d9e5 > .elementor-container{min-height:200px;}.elementor-24799 .elementor-element.elementor-element-6e02d9e5{margin-top:0px;margin-bottom:0px;padding:50px 0px 80px 0px;}.elementor-24799 .elementor-element.elementor-element-7328a348{z-index:9;}.elementor-24799 .elementor-element.elementor-element-9ac0c71{text-align:left;z-index:2;}.elementor-24799 .elementor-element.elementor-element-12a0f20d{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-24799 .elementor-element.elementor-element-3b1e21b7 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-24799 .elementor-element.elementor-element-788923a2{margin-top:120px;margin-bottom:20px;}.elementor-24799 .elementor-element.elementor-element-461c2c61 > .elementor-element-populated{padding:0px 15px 0px 15px;}.elementor-24799 .elementor-element.elementor-element-3f62a716{margin-top:0px;margin-bottom:0px;}.elementor-24799 .elementor-element.elementor-element-16b7608b > .elementor-element-populated{padding:15px 15px 15px 15px;}.elementor-24799 .elementor-element.elementor-element-2ce37860 > .elementor-container{min-height:400px;}.elementor-24799 .elementor-element.elementor-element-2ce37860:not(.elementor-motion-effects-element-type-background), .elementor-24799 .elementor-element.elementor-element-2ce37860 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("../../2023/08/Our-thinking-and-resources_Call-to-action-section.jpg");background-position:top center;background-size:cover;}.elementor-24799 .elementor-element.elementor-element-2ce37860{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:100px;margin-bottom:0px;}.elementor-24799 .elementor-element.elementor-element-2ce37860 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-24799 .elementor-element.elementor-element-16382a1c > .elementor-container{max-width:936px;}.elementor-24799 .elementor-element.elementor-element-16382a1c{margin-top:0px;margin-bottom:50px;}.elementor-24799 .elementor-element.elementor-element-3a9d7c3c{text-align:center;}.elementor-24799 .elementor-element.elementor-element-3a9d7c3c .elementor-heading-title{color:#FFFFFF;}@media(max-width:1024px){.elementor-24799 .elementor-element.elementor-element-632e897b > .elementor-element-populated{padding:15px 15px 15px 15px;}.elementor-24799 .elementor-element.elementor-element-12a0f20d{margin-top:0px;margin-bottom:0px;}.elementor-24799 .elementor-element.elementor-element-2d527a5a > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-24799 .elementor-element.elementor-element-788923a2{margin-top:80px;margin-bottom:40px;}.elementor-24799 .elementor-element.elementor-element-461c2c61 > .elementor-element-populated{padding:0px 15px 0px 15px;}.elementor-24799 .elementor-element.elementor-element-16b7608b > .elementor-element-populated{padding:15px 15px 15px 15px;}}@media(max-width:767px){.elementor-24799 .elementor-element.elementor-element-6e02d9e5{margin-top:0px;margin-bottom:0px;}.elementor-24799 .elementor-element.elementor-element-9ac0c71 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-24799 .elementor-element.elementor-element-788923a2{margin-top:0px;margin-bottom:0px;}.elementor-24799 .elementor-element.elementor-element-461c2c61.elementor-column > .elementor-widget-wrap{justify-content:flex-start;}.elementor-24799 .elementor-element.elementor-element-3f62a716{margin-top:50px;margin-bottom:0px;}.elementor-24799 .elementor-element.elementor-element-2ce37860:not(.elementor-motion-effects-element-type-background), .elementor-24799 .elementor-element.elementor-element-2ce37860 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:top center;background-repeat:no-repeat;background-size:cover;}.elementor-24799 .elementor-element.elementor-element-16382a1c{margin-top:0px;margin-bottom:30px;}.elementor-24799 .elementor-element.elementor-element-3a9d7c3c .elementor-heading-title{font-size:24px;line-height:32px;}.elementor-24799 .elementor-element.elementor-element-5d22a46a > .elementor-widget-container{margin:0px 0px 0px 0px;}}/* Start custom CSS for section, class: .elementor-element-6e02d9e5 */.csTitle:before{
+    content:"";
+    display: block;
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 40px;
+    width: 40px;
+    background-image: url(../../2023/06/decorElem_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: translate(0, -80%);
+    
+}
+.csTitleBG:before{
+    content:"";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    height: 80px;
+    width: 80px;
+    background-image: url(../../2023/06/decorElem_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: translate(0%, -50%);
+    
+}
+.csTitleBG:after{
+    content:"";
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: radial-gradient(157.65% 157.65% at 19.27% 197.79%, rgba(106, 31, 122, 0.2) 0%, rgba(106, 31, 122, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(90.1% 110.66% at 138.99% 138.16%, rgba(0, 148, 213, 0.2) 0%, rgba(0, 148, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;  
+}/* End custom CSS */
+/* Start custom CSS */.lightweight span.resource:before {
+    background: url(../../2024/01/download_red-icon.svg);
+    background-repeat:no-repeat;
+    background-position:center
+}/* End custom CSS */
